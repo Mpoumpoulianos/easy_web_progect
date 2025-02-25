@@ -1,24 +1,20 @@
-/* Sets the background to black and centers the clock */
 body {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
     font-family: Arial, sans-serif;
 }
 
-/* Styles the clock container */
 .clock-container {
-    background-color: #222; /* Dark background for contrast */
-    padding: 20px 40px; /* Adds space inside the container */
-    border-radius: 10px; /* Makes edges rounded */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Adds a glow effect */
+    background-color: #222; 
+    padding: 20px 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
-/* Styles the clock text */
 h1 {
-    font-size: 50px; /* Makes the text big */
-    text-align: center; /* Centers the text */
-}
+    font-size: 50px; 
+    text-align: center;
